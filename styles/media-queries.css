@@ -1,0 +1,15 @@
+
+
+/* Media query for tablets */
+@media (min-width: 600px) {
+    main {
+        height: 1850px;
+    }
+}
+
+/* Media query for desktops (992px and above) */
+@media (min-width: 992px) {
+    main {
+        height: 1900px;
+    }
+}

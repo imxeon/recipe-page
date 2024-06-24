@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    margin: 0 0 5px 0;
+    background-color: hsl(30, 54%, 90%);
+}
+
+h1, h2 {
+    font-family: young serif;
+}
+
+p, h3, ul, ol, table {
+    font-family: outfit;
+}
+
+p, ul, ol, span, table {
+    color: hsl(0, 1%, 31%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: auto;
+    width: auto;
+    max-width: 550px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+#preperation-time-card {
+    padding: 5px 20px 5px 20px;
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 40px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+#bold-text {
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 21px;
+}
+
+ol li, ul li{
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+
+hr {
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+ol {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+ol li {
+    padding-left: 15px;
+}
+
+span {
+    font-weight: normal;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+td {
+    width: 50%;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+tr td:first-child {
+    padding-left: 28px;
+}
+
+tr td:nth-child(2) {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+tr:last-child td {
+    border: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
